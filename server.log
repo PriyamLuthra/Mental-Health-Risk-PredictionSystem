@@ -1,0 +1,60 @@
+[OK] Model and Scaler loaded successfully.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.7.45.39:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 604-710-204
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:24:10] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:30:40] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:30:41] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:30:56] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:30:56] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:31:25] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:31:25] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:31:44] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:31:45] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:31:58] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:31:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:32:17] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:32:17] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2026 00:32:23] "OPTIONS /predict HTTP/1.1" 200 -
+C:\Users\budit\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+127.0.0.1 - - [13/Mar/2026 00:32:23] "POST /predict HTTP/1.1" 200 -
+ * Detected change in 'C:\\PERSONAL DUMP\\PROJECTS\\MentalHealthRiskSystem\\backend\\train_model.py', reloading
+[OK] Model and Scaler loaded successfully.
+[PREDICT] input={'age': 28, 'sleep': 5, 'outside': 1, 'screen': 1, 'physical': 0, 'diet': 0}  ->  High Risk Identified (47.55%)
+[PREDICT] input={'age': 30, 'sleep': 6, 'outside': 2, 'screen': 1, 'physical': 0, 'diet': 0}  ->  No High Risk Detected (40.98%)
+[PREDICT] input={'age': 30, 'sleep': 6, 'outside': 2, 'screen': 1, 'physical': 0, 'diet': 0}  ->  No High Risk Detected (40.98%)
+[PREDICT] input={'age': 21, 'sleep': 6, 'outside': 0, 'screen': 1, 'physical': 1, 'diet': 1}  ->  No High Risk Detected (27.53%)
+[PREDICT] input={'age': 21, 'sleep': 6, 'outside': 0, 'screen': 1, 'physical': 0, 'diet': 0}  ->  No High Risk Detected (38.27%)
+[PREDICT] input={'age': 21, 'sleep': 1, 'outside': 0, 'screen': 1, 'physical': 0, 'diet': 0}  ->  High Risk Identified (61.99%)
+[PREDICT] input={'age': 21, 'sleep': 1, 'outside': 0, 'screen': 0, 'physical': 1, 'diet': 1}  ->  No High Risk Detected (25.96%)
+[PREDICT] input={'age': 21, 'sleep': 1, 'outside': 0, 'screen': 0, 'physical': 1, 'diet': 1}  ->  No High Risk Detected (25.96%)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 604-710-204
+ * Detected change in 'C:\\PERSONAL DUMP\\PROJECTS\\MentalHealthRiskSystem\\backend\\app.py', reloading
+[OK] Model and Scaler loaded successfully.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 604-710-204
